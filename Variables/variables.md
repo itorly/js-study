@@ -20,3 +20,4 @@ A variable declared without a value will have the value undefined.
 
 JavaScript Dollar Sign $, Underscore _
 Since JavaScript treats a dollar sign or a underscore as a letter, identifiers containing $ or _ are valid variable names.
+
