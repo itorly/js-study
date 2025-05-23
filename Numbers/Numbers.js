@@ -23,7 +23,7 @@ let x = 0.2 + 0.1;
 // To solve the problem above, it helps to multiply and divide:
 let x = (0.2 * 10 + 0.1 * 10) / 10;
 
-// 5 Numeric Strings
+// # 5 Numeric Strings
 let x = "100";
 let y = "10";
 var z = x / y;
@@ -31,4 +31,19 @@ z = x * y;
 z = x - y;
 // a string concatenation
 z = x + y;
+
+// # 6 NaN - Not a Number
+let x = 100 / "Apple";  // NaN
+isNaN(x);               // true
+let x = 100 / "10";     // 10
+
+let x = NaN;
+let y = 5;
+let z = x + y;  // NaN
+
+let x = NaN;
+let y = "5";
+let z = x + y;  // "NaN5"
+
+typeof NaN; // "number"
 
