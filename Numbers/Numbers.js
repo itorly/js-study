@@ -50,7 +50,7 @@ typeof NaN; // "number"
 // # 7 Infinity
 // Infinity (or -Infinity) is the value JavaScript will return 
 // if you calculate a number outside the largest possible number.
-let myNumber = 2;
+var myNumber = 2;
 // Execute until Infinity
 while (myNumber != Infinity) {
   myNumber = myNumber * myNumber;
@@ -61,3 +61,23 @@ let x =  2 / 0; //  Infinity
 let y = -2 / 0; //  -Infinity
 
 typeof Infinity;    // "number"
+
+
+// # 8 Hexadecimal
+// JavaScript interprets numeric constants as hexadecimal 
+// if they are preceded by 0x.
+let x = 0xFF;   // 255
+
+// Never write a number with a leading zero (like 07).
+// Some JavaScript versions interpret numbers as octal if they are written with a leading zero.
+
+// By default, JavaScript displays numbers as base 10 decimals.
+// But you can use the toString() method to output numbers from base 2 to base 36.
+let myNumber = 32;
+myNumber.toString(36);  // "w"
+myNumber.toString(32);  // "10"
+myNumber.toString(16);  // "20"
+myNumber.toString(12);  // "28"
+myNumber.toString(10);  // "32"
+myNumber.toString(8);   // "40"
+myNumber.toString(2);   // "100000"
