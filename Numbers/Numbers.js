@@ -22,3 +22,13 @@ y = 9999999999999999;  // y will be 10000000000000000
 let x = 0.2 + 0.1;
 // To solve the problem above, it helps to multiply and divide:
 let x = (0.2 * 10 + 0.1 * 10) / 10;
+
+// 5 Numeric Strings
+let x = "100";
+let y = "10";
+var z = x / y;
+z = x * y;
+z = x - y;
+// a string concatenation
+z = x + y;
+
