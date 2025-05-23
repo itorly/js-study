@@ -20,3 +20,7 @@ let y = BigInt(1234567890123456789012345)
 // # 3 BigInt: A new JavaScript Datatype
 let type = typeof y;
 
+// # 4 BigInt Operators
+let x = 9007199254740995n;
+let y = 9007199254740995n;
+let z = x * y;
