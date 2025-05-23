@@ -81,3 +81,20 @@ myNumber.toString(12);  // "28"
 myNumber.toString(10);  // "32"
 myNumber.toString(8);   // "40"
 myNumber.toString(2);   // "100000"
+
+
+// # 9 Numbers as Objects
+let x = 123;
+typeof x;  // "number"
+let y = new Number(123);
+typeof y;  // "object"
+
+let x = 500;
+let y = new Number(500);
+x == y;  // true
+x === y;    // false
+
+let x = new Number(500);
+let y = new Number(500);
+x == y;  // false
+x === y;    // false
