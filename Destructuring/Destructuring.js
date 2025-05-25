@@ -23,3 +23,15 @@ let {firstName_1, lastName_1, country = "US"} = person_1;
 console.log(country); // US
 console.log(firstName_1); // John
 console.log(lastName_1); // Doe
+
+// 1.2 Object Property Alias
+// Create an Object
+const person_2 = {
+  firstName: "John",
+  lastName: "Doe",
+  age: 50
+};
+
+// Destructuring
+let {lastName : lname} = person_2;
+console.log(lname);
