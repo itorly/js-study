@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Timing</h2>
+
+<p>A script on this page starts this clock:</p>
+
+<p id="demo"></p>
+
+<button onclick="myStopFunction()">Stop time</button>
+
+<button onclick="myRestartFunction()">Restart time</button>
+
+<script>
+
+function myTimer() {
+  const d = new Date();
+  document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+}
+
+function myStopFunction() {
+  clearInterval(myVar);
+}
+
+function myRestartFunction() {
+  myVar = setInterval(myTimer, 1000);
+}
+</script>
+
+</body>
+</html>
