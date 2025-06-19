@@ -36,10 +36,10 @@ console.log("txt=", txt);
  * or Array.forEach() when the order is important.
  */
 
-numbers = [45, 4, 9, 16, 25];
+const numbers_2 = [45, 4, 9, 16, 25];
 
 txt = 0;
-numbers.forEach(myFunction);
+numbers_2.forEach(myFunction);
 
 function myFunction(value, index, array) {
   txt += value;
