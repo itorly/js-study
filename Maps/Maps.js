@@ -22,3 +22,14 @@ fruits_2.set("oranges", 200);
 
 let numOfApples_2 = fruits_2.get("apples");
 console.log("numOfApples_2", numOfApples_2);
+
+// Maps are Objects
+// Returns object:
+let type = typeof fruits;
+
+// Returns true:
+let instanceofMap = fruits instanceof Map;
+
+// The size Property
+// Returns the number of elements in a Map:
+let size = fruits.size;
