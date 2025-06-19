@@ -36,3 +36,13 @@ let text_2 = "";
 for (const entry of letters.values()) {
   text_2 += entry;
 }
+
+// The keys() Method
+// Create an Iterator
+const myIterator_key = letters.keys();
+
+// List all Elements
+let text_key = "";
+for (const x of myIterator) {
+  text_key += x;
+}
