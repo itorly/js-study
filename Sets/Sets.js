@@ -46,3 +46,13 @@ let text_key = "";
 for (const x of myIterator) {
   text_key += x;
 }
+
+// The entries() Method
+// Get all Entries
+const myIterator_entry = letters.entries();
+
+// List all Entries
+let text_entry = "";
+for (const entry of myIterator) {
+  text_entry += entry;
+}
