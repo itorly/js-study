@@ -33,3 +33,10 @@ let instanceofMap = fruits instanceof Map;
 // The size Property
 // Returns the number of elements in a Map:
 let size = fruits.size;
+
+// has(), delete(), clear()
+fruits.has("apples");
+
+fruits.delete("apples");
+
+fruits.clear();
