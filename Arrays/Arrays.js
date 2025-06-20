@@ -55,3 +55,10 @@ const points_a1 = [40];
 // Create an array with 40 undefined elements:
 const points_b1 = new Array(40);  
 
+
+// How to Recognize an Array
+let type = typeof fruits;
+
+let isArr = Array.isArray(fruits);
+
+let instanceofArray = (fruits instanceof Array);
