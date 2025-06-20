@@ -34,3 +34,14 @@ fruits[fruits.length] = "Peach";
 
 // Create undefined "holes" in fruits
 fruits[fruits.length+10] = "Lemon";
+
+
+// If you use named indexes, JavaScript will redefine the array to an object.
+// After that, some array methods and properties will produce incorrect results.
+const person_ = [];
+person_["firstName"] = "John";
+person_["lastName"] = "Doe";
+person_["age"] = 46;
+person_.length;     // Will return 0
+person_[0];         // Will return undefined
+
