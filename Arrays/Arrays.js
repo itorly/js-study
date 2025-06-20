@@ -18,3 +18,19 @@ const person_0 = ["John", "Doe", 46];
 
 const person = {firstName:"John", lastName:"Doe", age:46};
 let firstName = person.firstName;
+
+// Looping Array Elements
+// Array.forEach() function
+let text = "";
+fruits.forEach(myFunction);
+function myFunction(value) {
+  text += value + " ";
+}
+
+// Adding Array Elements
+fruits.push("Lemon");
+
+fruits[fruits.length] = "Peach";
+
+// Create undefined "holes" in fruits
+fruits[fruits.length+10] = "Lemon";
