@@ -45,3 +45,13 @@ person_["age"] = 46;
 person_.length;     // Will return 0
 person_[0];         // Will return undefined
 
+// JavaScript new Array()
+// These two different statements both create a new empty array
+const points_a = new Array();
+const points_b = [];
+
+// Create an array with one element:
+const points_a1 = [40];
+// Create an array with 40 undefined elements:
+const points_b1 = new Array(40);  
+
