@@ -4,3 +4,12 @@ function myFunction(a, b) {
 }
 myFunction(10, 2);           // Will return 20
 
+// The Global Object
+
+// In a web browser the global object is the browser window.
+// This example returns the window object as the value of this:
+let x = myFunction();            // x will be the window object
+
+function myFunction() {
+  return this;
+}
