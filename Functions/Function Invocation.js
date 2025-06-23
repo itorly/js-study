@@ -13,3 +13,13 @@ let x = myFunction();            // x will be the window object
 function myFunction() {
   return this;
 }
+
+// Invoking a Function as a Method
+const myObject = {
+  firstName:"John",
+  lastName: "Doe",
+  fullName: function () {
+    return this.firstName + " " + this.lastName;
+  }
+}
+myObject.fullName();         // Will return "John Doe"
