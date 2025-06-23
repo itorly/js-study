@@ -15,11 +15,22 @@ function myFunction() {
 }
 
 // Invoking a Function as a Method
-const myObject = {
+const myObject1 = {
   firstName:"John",
   lastName: "Doe",
   fullName: function () {
     return this.firstName + " " + this.lastName;
   }
 }
-myObject.fullName();         // Will return "John Doe"
+myObject1.fullName();         // Will return "John Doe"
+
+const myObject2 = {
+  firstName:"John",
+  lastName: "Doe",
+  fullName: function () {
+    return this;
+  }
+}
+
+// This will return [object Object] (the owner object)
+myObject2.fullName();
