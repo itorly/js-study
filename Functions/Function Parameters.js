@@ -1,9 +1,15 @@
 // Default Parameters
-function myFunction(x, y) {
+function myFunction1(x, y) {
   if (y === undefined) {
     y = 2;
   }  
   return x * y;
 }
 
-let x1 = myFunction(4);
+let z1 = myFunction1(4);
+
+// Default Parameter Values
+function myFunction2(x, y = 10) {
+  return x + y;
+}
+let z2 = myFunction2(5);
