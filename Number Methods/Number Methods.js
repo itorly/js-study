@@ -23,3 +23,12 @@ x.toFixed();  // returns 9
 x.toFixed(2);  // returns 9.66
 x.toFixed(4);  // returns 9.6560
 x.toFixed(6);  // returns 9.656000
+
+// The toPrecision() Method
+// toPrecision() returns a string, with a number written with a specified length:
+x = 9.656;
+x.toPrecision();  // returns 9.656
+x.toPrecision(2);  // returns 10
+x.toPrecision(4);  // returns 9.6560
+x.toPrecision(6);  // returns 9.656000
+x.toPrecision(8);  // returns 9.65600000
