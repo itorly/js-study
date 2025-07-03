@@ -57,3 +57,12 @@ Number("John");
 Number(new Date("1970-01-01"))
 Number(new Date("1970-01-02"))
 Number(new Date("2017-09-30"))
+
+// The parseInt() Method
+parseInt("-10");
+parseInt("-10.33");
+parseInt("10");
+parseInt("10.33");
+parseInt("10 20 30");
+parseInt("10 years");
+parseInt("years 10");
