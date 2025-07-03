@@ -52,3 +52,8 @@ Number("10.33");
 Number("10,33");
 Number("10 33");
 Number("John");
+
+// The Number() Method Used on Dates
+Number(new Date("1970-01-01"))
+Number(new Date("1970-01-02"))
+Number(new Date("2017-09-30"))
