@@ -66,3 +66,10 @@ parseInt("10.33");
 parseInt("10 20 30");
 parseInt("10 years");
 parseInt("years 10");
+
+// The parseFloat() Method
+parseFloat("10");
+parseFloat("10.33");
+parseFloat("10 20 30");
+parseFloat("10 years");
+parseFloat("years 10");
