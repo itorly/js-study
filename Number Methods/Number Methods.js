@@ -32,3 +32,10 @@ x.toPrecision(2);  // returns 10
 x.toPrecision(4);  // returns 9.6560
 x.toPrecision(6);  // returns 9.656000
 x.toPrecision(8);  // returns 9.65600000
+
+// The valueOf() Method
+// valueOf() returns a number as a number.
+x = 123;    
+y1 = x.valueOf();    
+y2 = (123).valueOf();    
+y3 = (100 + 23).valueOf();
