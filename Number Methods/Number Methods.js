@@ -39,3 +39,16 @@ x = 123;
 y1 = x.valueOf();    
 y2 = (123).valueOf();    
 y3 = (100 + 23).valueOf();
+
+// The Number() Method
+// The Number() method can be used to convert JavaScript variables to numbers:
+Number(true);
+Number(false);
+Number("10");
+Number("  10");
+Number("10  ");
+Number(" 10  ");
+Number("10.33");
+Number("10,33");
+Number("10 33");
+Number("John");
