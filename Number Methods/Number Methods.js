@@ -79,4 +79,14 @@ Number.isInteger(10);
 Number.isInteger(10.5);
 
 // The Number.isFinite() Method
+// The Number.isFinite() method returns true if the argument is not Infinity, -iInfinity, nor Nan.
 Number.isFinite(123);     // true
+Number.isFinite(Infinity);  // false
+
+// The Number.isNaN() Method
+// The Number.isNaN() method returns true if the argument is NaN (Not a Number).
+Number.isNaN(10);       // false
+Number.isNaN("10");     // false
+Number.isNaN(NaN);      // true
+Number.isNaN("NaN");    // false
+Number.isNaN(undefined); // false
