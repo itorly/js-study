@@ -90,3 +90,9 @@ Number.isNaN("10");     // false
 Number.isNaN(NaN);      // true
 Number.isNaN("NaN");    // false
 Number.isNaN(undefined); // false
+
+// The Number.isSafeInteger() Method
+// A safe integer is an integer that can be exactly represented as a double precision number.
+// The Number.isSafeInteger() method returns true if the argument is a safe integer.
+Number.isSafeInteger(10);
+Number.isSafeInteger(12345678901234567890);
