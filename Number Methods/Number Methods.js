@@ -77,3 +77,6 @@ parseFloat("years 10");
 // The Number.isInteger() Method
 Number.isInteger(10);
 Number.isInteger(10.5);
+
+// The Number.isFinite() Method
+Number.isFinite(123);     // true
