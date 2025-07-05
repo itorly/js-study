@@ -96,3 +96,14 @@ Number.isNaN(undefined); // false
 // The Number.isSafeInteger() method returns true if the argument is a safe integer.
 Number.isSafeInteger(10);
 Number.isSafeInteger(12345678901234567890);
+
+// The Number.parseInt() Method
+// Number.parseInt() parses a string and returns a whole number.
+// Spaces are allowed. Only the first number is returned:
+Number.parseInt("-10");
+Number.parseInt("-10.33");
+Number.parseInt("10");
+Number.parseInt("10.33");
+Number.parseInt("10 20 30");
+Number.parseInt("10 years");
+Number.parseInt("years 10");
