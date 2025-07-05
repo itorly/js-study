@@ -73,3 +73,7 @@ parseFloat("10.33");
 parseFloat("10 20 30");
 parseFloat("10 years");
 parseFloat("years 10");
+
+// The Number.isInteger() Method
+Number.isInteger(10);
+Number.isInteger(10.5);
