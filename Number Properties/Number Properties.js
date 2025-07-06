@@ -7,3 +7,6 @@ x = Number.MAX_VALUE;
 
 // JavaScript MIN_VALUE
 x = Number.MIN_VALUE;
+
+// JavaScript MAX_SAFE_INTEGER
+x = Number.MAX_SAFE_INTEGER;
