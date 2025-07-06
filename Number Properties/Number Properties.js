@@ -4,3 +4,6 @@ let x = Number.EPSILON;
 
 // JavaScript MAX_VALUE
 x = Number.MAX_VALUE;
+
+// JavaScript MIN_VALUE
+x = Number.MIN_VALUE;
