@@ -19,3 +19,6 @@ x = Number.POSITIVE_INFINITY;
 
 // JavaScript NEGATIVE_INFINITY
 x = Number.NEGATIVE_INFINITY;
+
+// JavaScript NaN
+x = Number.NaN;
