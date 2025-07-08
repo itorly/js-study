@@ -13,3 +13,6 @@ x = Number.MAX_SAFE_INTEGER;
 
 // JavaScript MIN_SAFE_INTEGER
 x = Number.MIN_SAFE_INTEGER;
+
+// JavaScript POSITIVE_INFINITY
+x = Number.POSITIVE_INFINITY;
