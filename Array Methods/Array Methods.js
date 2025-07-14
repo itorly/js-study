@@ -11,3 +11,7 @@ let fruit = fruits.at(2);
 fruit = fruits[2];
 
 let joinStr = fruits.join(" * ");
+
+fruits.pop();
+
+fruits.push("Kiwi");
