@@ -5,3 +5,7 @@ let size = fruits.length;
 fruits.length = 2;
 
 let myList = fruits.toString();
+
+let fruit = fruits.at(2);
+
+fruit = fruits[2];
